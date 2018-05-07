@@ -9,10 +9,10 @@ access_key = ""
 access_secret = ""
 
 twitter = Twitter(
-                                auth = OAuth(access_key, access_secret, consumer_key, consumer_secret))
+                  auth = OAuth(access_key, access_secret, consumer_key, consumer_secret))
 
 auth = tweepy.OAuthHandler('*', '*')
-auth.set_access_token('8', '*')
+auth.set_access_token('*', '*')
 
 api = tweepy.API(auth)
 
